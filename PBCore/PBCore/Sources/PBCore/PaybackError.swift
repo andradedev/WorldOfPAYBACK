@@ -7,6 +7,6 @@
 
 import Foundation
 
-enum PBError: Error {
+public enum PBError: Error {
     case unknown
 }

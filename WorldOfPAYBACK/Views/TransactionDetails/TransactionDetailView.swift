@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PBCore
 
 struct TransactionDetailView: View {
     var model: TransactionModel

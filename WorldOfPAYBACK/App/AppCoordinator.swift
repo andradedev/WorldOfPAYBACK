@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import PBCore
 
 class AppCoordinator {
     

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PBCore
 
 struct TransactionView: View {
     @ObservedObject var viewModel: TransactionsListViewModel
@@ -59,7 +60,6 @@ struct TransactionView: View {
                 .background(UIColor.darkBluePB.color)
                 
         }.navigationTitle("Transactions")
-            //.background(UIColor.darkBluePB.withAlphaComponent(0.4).color)
     }
 }
 

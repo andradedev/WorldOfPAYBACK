@@ -7,6 +7,7 @@
 
 import UIKit
 import Combine
+import PBCore
 
 class TransactionsListViewController: BaseSwiftUIViewController<TransactionView> {
     var viewModel: TransactionsListViewModel

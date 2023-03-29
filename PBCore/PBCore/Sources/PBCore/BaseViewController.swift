@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-class BaseSwiftUIViewController<T: View>: UIHostingController<T> {
+open class BaseSwiftUIViewController<T: View>: UIHostingController<T> {
     
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     var blur = UIVisualEffectView()
     var loadsView = UIView()
     
-    init(view: T) {
+    public init(view: T) {
         super.init(rootView: view)
     }
     
     @available(*, unavailable)
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -49,7 +49,7 @@ class BaseSwiftUIViewController<T: View>: UIHostingController<T> {
     }
     
     // UIKit loading pattern
-    func setLoading(_ activated: Bool) {
+    public func setLoading(_ activated: Bool) {
         if activated {
             setupBlur()
             setupLoadingView()
@@ -75,19 +75,19 @@ class BaseSwiftUIViewController<T: View>: UIHostingController<T> {
         }
     }
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
+    override public var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
 }
 
-class BaseUIKitViewController: UIViewController {
-    init(isViewCode: Bool) {
+open class BaseUIKitViewController: UIViewController {
+    public init(isViewCode: Bool) {
         super.init(nibName: isViewCode ? nil : String(describing: type(of: self)),
                    bundle: Bundle(for: Self.self))
     }
     
     @available(*, unavailable)
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }

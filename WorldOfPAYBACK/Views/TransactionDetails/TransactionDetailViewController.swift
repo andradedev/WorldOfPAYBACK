@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import PBCore
 
 class TransactionDetailViewController: BaseSwiftUIViewController<TransactionDetailView> {
     

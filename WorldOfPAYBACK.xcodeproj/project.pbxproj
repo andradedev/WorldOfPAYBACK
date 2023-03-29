@@ -7,24 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		223D397F29CF4964000DE05E /* WorldOfPAYBACKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D397E29CF4964000DE05E /* WorldOfPAYBACKApp.swift */; };
-		223D398129CF4964000DE05E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D398029CF4964000DE05E /* ContentView.swift */; };
-		223D398329CF4966000DE05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223D398229CF4966000DE05E /* Assets.xcassets */; };
-		223D398629CF4966000DE05E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223D398529CF4966000DE05E /* Preview Assets.xcassets */; };
-		223D398D29CF4F1E000DE05E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D398C29CF4F1E000DE05E /* Coordinator.swift */; };
+		223D399B29CF504C000DE05E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D399A29CF504C000DE05E /* AppDelegate.swift */; };
+		223D399D29CF504C000DE05E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D399C29CF504C000DE05E /* SceneDelegate.swift */; };
+		223D39A429CF504E000DE05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223D39A329CF504E000DE05E /* Assets.xcassets */; };
+		223D39A729CF504E000DE05E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223D39A529CF504E000DE05E /* LaunchScreen.storyboard */; };
+		223D39AF29CF50D9000DE05E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39AE29CF50D9000DE05E /* AppCoordinator.swift */; };
+		223D39B129CF5250000DE05E /* TransactionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39B029CF5250000DE05E /* TransactionsListViewController.swift */; };
+		223D39B329CF5BE1000DE05E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39B229CF5BE1000DE05E /* BaseViewController.swift */; };
+		223D39BC29CF7BC8000DE05E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 223D39BA29CF7BC8000DE05E /* README.md */; };
+		223D39BD29CF7BC8000DE05E /* PBTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 223D39BB29CF7BC8000DE05E /* PBTransactions.json */; };
+		223D39BF29CF7BE7000DE05E /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39BE29CF7BE7000DE05E /* TransactionModel.swift */; };
+		223D39C129CF7DA7000DE05E /* TransactionsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39C029CF7DA7000DE05E /* TransactionsListViewModel.swift */; };
+		223D39C329CF811E000DE05E /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39C229CF811E000DE05E /* TransactionService.swift */; };
+		223D39C529CF870C000DE05E /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39C429CF870C000DE05E /* TransactionView.swift */; };
+		223D39C729D097C1000DE05E /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39C629D097C1000DE05E /* TransactionCell.swift */; };
+		223D39C929D0FC47000DE05E /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39C829D0FC47000DE05E /* ColorExtensions.swift */; };
+		223D39CB29D0FD60000DE05E /* PaybackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39CA29D0FD60000DE05E /* PaybackError.swift */; };
+		223D39CE29D100A2000DE05E /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39CD29D100A2000DE05E /* ErrorViewController.swift */; };
+		223D39D129D10A02000DE05E /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39D029D10A02000DE05E /* TransactionDetailViewController.swift */; };
+		223D39D329D10A10000DE05E /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D39D229D10A10000DE05E /* TransactionDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		223D397B29CF4964000DE05E /* WorldOfPAYBACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		223D397E29CF4964000DE05E /* WorldOfPAYBACKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACKApp.swift; sourceTree = "<group>"; };
-		223D398029CF4964000DE05E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		223D398229CF4966000DE05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		223D398529CF4966000DE05E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		223D398C29CF4F1E000DE05E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		223D399729CF504C000DE05E /* WorldOfPAYBACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223D399A29CF504C000DE05E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		223D399C29CF504C000DE05E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		223D39A329CF504E000DE05E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		223D39A629CF504E000DE05E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		223D39A829CF504E000DE05E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223D39AE29CF50D9000DE05E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		223D39B029CF5250000DE05E /* TransactionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewController.swift; sourceTree = "<group>"; };
+		223D39B229CF5BE1000DE05E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		223D39BA29CF7BC8000DE05E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		223D39BB29CF7BC8000DE05E /* PBTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PBTransactions.json; sourceTree = "<group>"; };
+		223D39BE29CF7BE7000DE05E /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		223D39C029CF7DA7000DE05E /* TransactionsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewModel.swift; sourceTree = "<group>"; };
+		223D39C229CF811E000DE05E /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		223D39C429CF870C000DE05E /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		223D39C629D097C1000DE05E /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		223D39C829D0FC47000DE05E /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		223D39CA29D0FD60000DE05E /* PaybackError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaybackError.swift; sourceTree = "<group>"; };
+		223D39CD29D100A2000DE05E /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		223D39D029D10A02000DE05E /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		223D39D229D10A10000DE05E /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		223D397829CF4964000DE05E /* Frameworks */ = {
+		223D399429CF504C000DE05E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,52 +63,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		223D397229CF4964000DE05E = {
+		223D398E29CF504C000DE05E = {
 			isa = PBXGroup;
 			children = (
-				223D397D29CF4964000DE05E /* WorldOfPAYBACK */,
-				223D397C29CF4964000DE05E /* Products */,
+				223D399929CF504C000DE05E /* WorldOfPAYBACK */,
+				223D399829CF504C000DE05E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		223D397C29CF4964000DE05E /* Products */ = {
+		223D399829CF504C000DE05E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				223D397B29CF4964000DE05E /* WorldOfPAYBACK.app */,
+				223D399729CF504C000DE05E /* WorldOfPAYBACK.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		223D397D29CF4964000DE05E /* WorldOfPAYBACK */ = {
+		223D399929CF504C000DE05E /* WorldOfPAYBACK */ = {
 			isa = PBXGroup;
 			children = (
-				223D397E29CF4964000DE05E /* WorldOfPAYBACKApp.swift */,
-				223D398029CF4964000DE05E /* ContentView.swift */,
-				223D398229CF4966000DE05E /* Assets.xcassets */,
-				223D398429CF4966000DE05E /* Preview Content */,
-				223D398C29CF4F1E000DE05E /* Coordinator.swift */,
+				223D39B929CF7BBC000DE05E /* ExternalData */,
+				223D39B729CF5D30000DE05E /* Views */,
+				223D39B629CF5D24000DE05E /* Common */,
+				223D39B429CF5CF7000DE05E /* App */,
 			);
 			path = WorldOfPAYBACK;
 			sourceTree = "<group>";
 		};
-		223D398429CF4966000DE05E /* Preview Content */ = {
+		223D39B429CF5CF7000DE05E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				223D398529CF4966000DE05E /* Preview Assets.xcassets */,
+				223D39AE29CF50D9000DE05E /* AppCoordinator.swift */,
+				223D399A29CF504C000DE05E /* AppDelegate.swift */,
+				223D399C29CF504C000DE05E /* SceneDelegate.swift */,
+				223D39A329CF504E000DE05E /* Assets.xcassets */,
+				223D39A829CF504E000DE05E /* Info.plist */,
+				223D39A529CF504E000DE05E /* LaunchScreen.storyboard */,
 			);
-			path = "Preview Content";
+			path = App;
+			sourceTree = "<group>";
+		};
+		223D39B629CF5D24000DE05E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				223D39B229CF5BE1000DE05E /* BaseViewController.swift */,
+				223D39C829D0FC47000DE05E /* ColorExtensions.swift */,
+				223D39CA29D0FD60000DE05E /* PaybackError.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		223D39B729CF5D30000DE05E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				223D39CF29D109EF000DE05E /* TransactionDetails */,
+				223D39CC29D1008F000DE05E /* Error */,
+				223D39B829CF5D41000DE05E /* Transactions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		223D39B829CF5D41000DE05E /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				223D39C429CF870C000DE05E /* TransactionView.swift */,
+				223D39B029CF5250000DE05E /* TransactionsListViewController.swift */,
+				223D39C029CF7DA7000DE05E /* TransactionsListViewModel.swift */,
+				223D39C229CF811E000DE05E /* TransactionService.swift */,
+				223D39BE29CF7BE7000DE05E /* TransactionModel.swift */,
+				223D39C629D097C1000DE05E /* TransactionCell.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		223D39B929CF7BBC000DE05E /* ExternalData */ = {
+			isa = PBXGroup;
+			children = (
+				223D39BB29CF7BC8000DE05E /* PBTransactions.json */,
+				223D39BA29CF7BC8000DE05E /* README.md */,
+			);
+			path = ExternalData;
+			sourceTree = "<group>";
+		};
+		223D39CC29D1008F000DE05E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				223D39CD29D100A2000DE05E /* ErrorViewController.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		223D39CF29D109EF000DE05E /* TransactionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				223D39D029D10A02000DE05E /* TransactionDetailViewController.swift */,
+				223D39D229D10A10000DE05E /* TransactionDetailView.swift */,
+			);
+			path = TransactionDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		223D397A29CF4964000DE05E /* WorldOfPAYBACK */ = {
+		223D399629CF504C000DE05E /* WorldOfPAYBACK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 223D398929CF4966000DE05E /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */;
+			buildConfigurationList = 223D39AB29CF504E000DE05E /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */;
 			buildPhases = (
-				223D397729CF4964000DE05E /* Sources */,
-				223D397829CF4964000DE05E /* Frameworks */,
-				223D397929CF4964000DE05E /* Resources */,
+				223D399329CF504C000DE05E /* Sources */,
+				223D399429CF504C000DE05E /* Frameworks */,
+				223D399529CF504C000DE05E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -87,25 +179,25 @@
 			);
 			name = WorldOfPAYBACK;
 			productName = WorldOfPAYBACK;
-			productReference = 223D397B29CF4964000DE05E /* WorldOfPAYBACK.app */;
+			productReference = 223D399729CF504C000DE05E /* WorldOfPAYBACK.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		223D397329CF4964000DE05E /* Project object */ = {
+		223D398F29CF504C000DE05E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					223D397A29CF4964000DE05E = {
+					223D399629CF504C000DE05E = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 223D397629CF4964000DE05E /* Build configuration list for PBXProject "WorldOfPAYBACK" */;
+			buildConfigurationList = 223D399229CF504C000DE05E /* Build configuration list for PBXProject "WorldOfPAYBACK" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +205,68 @@
 				en,
 				Base,
 			);
-			mainGroup = 223D397229CF4964000DE05E;
-			productRefGroup = 223D397C29CF4964000DE05E /* Products */;
+			mainGroup = 223D398E29CF504C000DE05E;
+			productRefGroup = 223D399829CF504C000DE05E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				223D397A29CF4964000DE05E /* WorldOfPAYBACK */,
+				223D399629CF504C000DE05E /* WorldOfPAYBACK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		223D397929CF4964000DE05E /* Resources */ = {
+		223D399529CF504C000DE05E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				223D398629CF4966000DE05E /* Preview Assets.xcassets in Resources */,
-				223D398329CF4966000DE05E /* Assets.xcassets in Resources */,
+				223D39BC29CF7BC8000DE05E /* README.md in Resources */,
+				223D39A729CF504E000DE05E /* LaunchScreen.storyboard in Resources */,
+				223D39BD29CF7BC8000DE05E /* PBTransactions.json in Resources */,
+				223D39A429CF504E000DE05E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		223D397729CF4964000DE05E /* Sources */ = {
+		223D399329CF504C000DE05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				223D398129CF4964000DE05E /* ContentView.swift in Sources */,
-				223D397F29CF4964000DE05E /* WorldOfPAYBACKApp.swift in Sources */,
-				223D398D29CF4F1E000DE05E /* Coordinator.swift in Sources */,
+				223D39C929D0FC47000DE05E /* ColorExtensions.swift in Sources */,
+				223D39BF29CF7BE7000DE05E /* TransactionModel.swift in Sources */,
+				223D39CE29D100A2000DE05E /* ErrorViewController.swift in Sources */,
+				223D39CB29D0FD60000DE05E /* PaybackError.swift in Sources */,
+				223D39C129CF7DA7000DE05E /* TransactionsListViewModel.swift in Sources */,
+				223D39C329CF811E000DE05E /* TransactionService.swift in Sources */,
+				223D39D329D10A10000DE05E /* TransactionDetailView.swift in Sources */,
+				223D39AF29CF50D9000DE05E /* AppCoordinator.swift in Sources */,
+				223D399B29CF504C000DE05E /* AppDelegate.swift in Sources */,
+				223D39B129CF5250000DE05E /* TransactionsListViewController.swift in Sources */,
+				223D399D29CF504C000DE05E /* SceneDelegate.swift in Sources */,
+				223D39B329CF5BE1000DE05E /* BaseViewController.swift in Sources */,
+				223D39C729D097C1000DE05E /* TransactionCell.swift in Sources */,
+				223D39D129D10A02000DE05E /* TransactionDetailViewController.swift in Sources */,
+				223D39C529CF870C000DE05E /* TransactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		223D39A529CF504E000DE05E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				223D39A629CF504E000DE05E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		223D398729CF4966000DE05E /* Debug */ = {
+		223D39A929CF504E000DE05E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +326,7 @@
 			};
 			name = Debug;
 		};
-		223D398829CF4966000DE05E /* Release */ = {
+		223D39AA29CF504E000DE05E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,20 +380,19 @@
 			};
 			name = Release;
 		};
-		223D398A29CF4966000DE05E /* Debug */ = {
+		223D39AC29CF504E000DE05E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
 				DEVELOPMENT_TEAM = 8LX7GAX692;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = WorldOfPAYBACK/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,20 +408,19 @@
 			};
 			name = Debug;
 		};
-		223D398B29CF4966000DE05E /* Release */ = {
+		223D39AD29CF504E000DE05E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
 				DEVELOPMENT_TEAM = 8LX7GAX692;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = WorldOfPAYBACK/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,25 +439,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		223D397629CF4964000DE05E /* Build configuration list for PBXProject "WorldOfPAYBACK" */ = {
+		223D399229CF504C000DE05E /* Build configuration list for PBXProject "WorldOfPAYBACK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				223D398729CF4966000DE05E /* Debug */,
-				223D398829CF4966000DE05E /* Release */,
+				223D39A929CF504E000DE05E /* Debug */,
+				223D39AA29CF504E000DE05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		223D398929CF4966000DE05E /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */ = {
+		223D39AB29CF504E000DE05E /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				223D398A29CF4966000DE05E /* Debug */,
-				223D398B29CF4966000DE05E /* Release */,
+				223D39AC29CF504E000DE05E /* Debug */,
+				223D39AD29CF504E000DE05E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 223D397329CF4964000DE05E /* Project object */;
+	rootObject = 223D398F29CF504C000DE05E /* Project object */;
 }
